@@ -1,3 +1,4 @@
 TOC=`pwd`
 IMG="jupyter/datascience-notebook"
-docker run -p 8920:8888 -v $TOC:/wrk/ $IMG 
+wrk="/home/jovyan/work"
+docker run -d -p 8920:8888 -v $TOC:$wrk $IMG 
