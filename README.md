@@ -8,3 +8,7 @@ Julia,Datascience
   ```bash
   docker run -p 8920:8888 jupyter/datascience-notebook
   ```
+  
+## 当前状态
+
+* 现在Julia 还没有成熟的debugger.
